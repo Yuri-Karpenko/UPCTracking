@@ -1,0 +1,180 @@
+/* general */
+body{
+	background: #fff;
+}
+
+/* Login */
+#frm{
+	border: solid gray 1px;
+	width: 20%;
+	border-radius: 5px;
+	margin: 100px auto;
+	background: white;
+	padding: 50px;
+	width: 300px;
+	clear: both;
+}
+
+#frm input {
+	width: 100%;
+	clear: both;
+}
+
+#frm h3{
+	text-align: center;
+	font-family: Arial Black, Gadget, sans-serif;
+	font-size: 30px;
+	margin-top: -25px;
+}
+
+#btn{
+	color: #fff;
+	background: #337ab7;
+
+}
+
+/* Header */
+
+#header{
+	width:100%;
+	background: #000; 
+	height: 100px;
+	margin-top: -22px;
+}
+
+#header h1{
+	color: #fff; 
+	text-align: center; 
+	font-family: Arial Black, Gadget, sans-serif;
+}
+#header form{
+	display: block; 
+	float: right; 
+	margin-right: 50px; 
+	margin-top: -40px;
+}
+
+#header p{
+	color: #fff;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size: 13px;
+}	
+
+
+#header button{
+	margin-top: -10px;
+}
+
+#header a:link{
+	text-decoration: none;
+	color: #fff;
+}
+
+#header a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Index */
+.container {
+	width: 200px;
+	clear: both;
+}
+.container input {
+	width: 100%;
+	clear: both;
+}
+
+.sku-tool-div h3 {
+	display: block;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	width: 200px;
+	text-align: left;		
+}
+
+.sku-tool-div label {
+	display: block;
+	font-family: Trebuchet MS, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: italic;
+	width: 200px;
+	margin-bottom: 5px;
+	text-align: left;		
+}
+
+#std-1 {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 600px;
+	margin-left: 50px;
+}
+
+#std-2 {
+	display: block;
+	float: left;
+	height: 600px;
+	width: 200px;
+	margin-left: 100px;
+}
+
+#std-3 {
+	display: block;
+	float: left;
+	width: 200px;
+	margin-left: 100px;
+	height: 600px;
+}
+
+.sku-tool-div .required-field{
+	color: red;
+}
+
+.sku-tool-div .productbtn{
+	color: #fff;
+	background: #337ab7;
+}
+
+.sku-tool-div .manufacturerbtn{
+	color: #fff;
+	background: #337ab7;
+}
+
+/* Generate SKU, Generate Brand */
+.strongdisplay{
+	font-style: italic;
+	font-weight: bold;
+}
+
+.successdisplay{
+	font-family: Trebuchet MS, Helvetica, sans-serif; 
+	color: green; 
+	font-size: 12px;
+}
+
+.errordisplay{
+	font-family: Trebuchet MS, Helvetica, sans-serif; 
+	color: red; 
+	font-size: 12px;
+}
+
+.backlink{
+	background: #337ab7;
+	margin-left: 20px;
+	border: 1px solid;
+	border-radius: 20px;
+	width: 50px;
+	text-align: center;
+}
+
+.backlink a{
+	color: #fff;
+}
+
+.backlink a:link{
+	text-decoration: none;
+}
+
+.backlink a:visited{
+	text-decoration: none;
+}
